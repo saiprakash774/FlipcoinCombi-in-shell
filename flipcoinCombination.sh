@@ -1,2 +1,8 @@
 #!/bin/bash
-echo "Welcome to flip coin Combination "
+a=$(( RANDOM%2 ));
+if [ $a == 1 ];
+then
+         echo "heads"
+else
+        echo "tails"
+fi
